@@ -1,0 +1,11 @@
+git init
+
+pip freeze >> requirements.txt  
+
+git remote add origin https://github.com/Onestringlab/StreamlitChurn.git
+git branch -M main
+git push -u origin main
+
+git add .
+git commit -m "first commit"
+git push -u origin main
